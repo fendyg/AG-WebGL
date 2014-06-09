@@ -162,6 +162,8 @@
 
             function render() {
                 group.rotation.y += ( targetRotation - group.rotation.y ) * 0.05;
+                group.rotation.y += 0.65;
+
                 renderer.render( scene, camera );
             }
         </script>
